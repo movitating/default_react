@@ -10,7 +10,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
 ![Javascript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
 ![Typescript](https://img.shields.io/badge/typescript-%233178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/react%20css-%2338B2AC.svg?&style=for-the-badge&logo=react%20css&logoColor=white)
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black)
 ![Tailwindcss](https://img.shields.io/badge/tailwind%20css-%2338B2AC.svg?&style=for-the-badge&logo=tailwind%20css&logoColor=white)
 
 ![VSCode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -40,14 +40,15 @@
 |    ├──
 |    └──
 ├── widgets                     # 독립적인 UI 블록 (페이지 레이아웃)
-|    ├── aside
-|    |    └── 📄 aside.html
 |    ├── footer
 |    |    └── 📄 footer.html
-|    └── header
-|         └── 📄 header.html
-├── 📄 main.ts                  # 기능 정의
-└── 📄 style.css                # 스타일 정의
+|    ├── header
+|    |    └── 📄 header.html
+|    └── nav
+|         └── 📄 nav.html
+├── 📄 main.tsx                 # 전체 기능 관리
+├── 📄 App.tsx                  # 전체 컴포넌트 관리
+└── 📄 index.css                # 스타일 정의
 
 ```
 
@@ -86,7 +87,9 @@
 
 3. 폴더 및 파일
 
-- 폴더, 파일: snake-case
+- 파일: snake-case
+  - React 컴포넌트 파일: PascalCase
+- 폴더: snake-case
 
 ### Breakpoints
 
