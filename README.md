@@ -25,10 +25,10 @@
 ```text
 📦 src
 ├── app                         # 애플리케이션의 진입점과 전역 설정
-|    ├── styles                 # 전역 스타일 관리
+|    ├── styles
 |    |    └── 💄 style.css
-|    ├── 📄 main.tsx            # 애플리케이션 진입점 관리
-|    └── 📄 App.tsx             # 전체 컴포넌트 관리
+|    ├── 📄 main.tsx
+|    └── 📄 App.tsx
 ├── entities                    # 독립적이고 분명하게 구분되는 비즈니스 주체
 |    ├──
 |    ├──
