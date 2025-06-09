@@ -1,0 +1,44 @@
+{
+  // 기능 비활성화 여부
+  "todohighlight.isEnable": true,
+  // 대소문자 구분 여부 ( true: 구분함 | false: 구분하지 않음)
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "CHECKLIST",
+      "color": "#fff",
+      "backgroundColor": "black",
+      "isWholeLine": true // true: 해당 키워드가 포함된 전체 라인을 하이라이트
+    },
+    {
+      "text": "[ ]",
+      "color": "#000",
+      "backgroundColor": "",
+      "isWholeLine": true // true: 해당 키워드가 포함된 전체 라인을 하이라이트
+    },
+    {
+      "text": "[x]",
+      "color": "#b0b0b0",
+      "backgroundColor": "",
+      "isWholeLine": true // true: 해당 키워드가 포함된 전체 라인을 하이라이트
+    },
+    {
+      "text": "REVIEW",
+      "color": "#fff",
+      "backgroundColor": "#009900",
+      "isWholeLine": true // true: 해당 키워드가 포함된 전체 라인을 하이라이트
+    },
+    {
+      "text": "ERROR",
+      "color": "#fff",
+      "backgroundColor": "#ff0000",
+      "isWholeLine": true // true: 해당 키워드가 포함된 전체 라인을 하이라이트
+    },
+    {
+      "text": "INFO",
+      "color": "#000",
+      "backgroundColor": "#fff000",
+      "isWholeLine": true // true: 해당 키워드가 포함된 전체 라인을 하이라이트
+    }
+  ]
+}

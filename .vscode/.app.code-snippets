@@ -1,0 +1,30 @@
+{
+  "CHECKLIST": {
+    "prefix": "TODO-Checklist",
+    "body": ["/**", " * CHECKLIST", " * [ ] 해야 할 일", " * [x] 완료한 일", " */"],
+    "description": "체크리스트 만들기"
+  },
+  "REVIEW for": {
+    "prefix": "TODO-Review",
+    "body": ["/**", " * REVIEW", " * 리뷰어에게 전달할 내용을 적어주세요", " * @(리뷰어)", " */"],
+    "description": "리뷰 요청하기"
+  },
+  "TODO-ERROR": {
+    "prefix": "TODO-Error",
+    "body": ["/**", " * ERROR", " * 에러 내용을 자세히 적어주세요", " */"],
+    "description": "에러 작성하기"
+  },
+  "TODO-INFO": {
+    "prefix": "TODO-Info",
+    "body": [
+      "/**",
+      " * INFO",
+      " * 함수 동작 원리를 자세히 적어주세요",
+      " * @param",
+      " * @description",
+      " * @returns",
+      " */"
+    ],
+    "description": "TODO-INFO"
+  }
+}
