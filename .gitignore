@@ -80,3 +80,6 @@ sketch
 # Ignore all local history of files
 .history
 .ionide
+
+# 테스트 폴더 및 파일 제외
+src/test/*
