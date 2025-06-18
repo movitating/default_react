@@ -26,7 +26,12 @@
 ```text
 📦 src
 ├── app                         # 애플리케이션의 진입점과 전역 설정
-|    ├── styles
+|    ├── routes                 # 라우팅 정의
+|    |    ├── 🚏 admin.Routes.tsx
+|    |    ├── 🚏 app.Routes.tsx
+|    |    ├── 🚏 auth.Routes.tsx
+|    |    └── 🚏 Routes.tsx
+|    ├── styles                 # 스타일 정의
 |    |    └── 💄 style.css
 |    ├── 📄 main.tsx
 |    └── 📄 App.tsx
