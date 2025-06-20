@@ -1,13 +1,10 @@
-import Header from '@widgets/header/Header';
-import Navigation from '@widgets/navigation/Navigation';
-import Footer from '@widgets/footer/Footer';
+import router from '@app/routes/routes';
+import { RouterProvider } from 'react-router';
 
 function App() {
   return (
     <>
-      <Header />
-      <Navigation />
-      <Footer />
+      <RouterProvider router={router} />
     </>
   );
 }
