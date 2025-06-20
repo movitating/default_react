@@ -23,48 +23,50 @@
 
 ## Architecture
 
+해당 프로젝트는 FSD 아키텍처를 차용하여 폴더를 구조화하였습니다.
+
 ```text
 📦 src
-├── app                         # 애플리케이션의 진입점과 전역 설정
-|    ├── routes                 # 라우팅 정의
-|    |    ├── 🚏 admin.Routes.tsx
+├── app                           # 애플리케이션의 진입점과 전역 설정
+|    ├── routes                   # 라우팅 정의
+|    |    ├── 🚏 Routes.tsx       # 라우팅 전체 경로 통합 설정
 |    |    ├── 🚏 app.Routes.tsx
-|    |    ├── 🚏 auth.Routes.tsx
-|    |    └── 🚏 Routes.tsx
-|    ├── styles                 # 스타일 정의
+|    |    ├── 🚏 admin.Routes.tsx
+|    |    └── 🚏 auth.Routes.tsx
+|    ├── styles                   # 스타일 정의
 |    |    └── 💄 style.css
 |    ├── 📄 main.tsx
 |    └── 📄 App.tsx
-├── entities                    # 독립적이고 분명하게 구분되는 비즈니스 주체
+├── entities                      # 독립적이고 분명하게 구분되는 비즈니스 주체
 |    ├──
 |    ├──
 |    ├──
 |    └──
-├── features                    # 사용자 시나리오 및 비즈니스 로직 (핵심 기능)
+├── features                      # 사용자 시나리오 및 비즈니스 로직 (핵심 기능)
 |    ├──
 |    ├──
 |    ├──
 |    └──
-├── pages                       # 화면 정의 (페이지)
+├── pages                         # 화면 정의 (페이지)
+|    ├── Layout                   # 공통 레이아웃 정의
+|    ├── Home
+|    ├──
+|    └──
+├── shared                        # UI 컴포넌트 및 유틸리티
 |    ├──
 |    ├──
 |    ├──
 |    └──
-├── shared                      # UI 컴포넌트 및 유틸리티
-|    ├──
-|    ├──
-|    ├──
-|    └──
-└── widgets                     # 페이지 레이아웃을 위한 UI 블록
-     ├── footer
-     |    ├── 📄 footer.html
-     |    └── 📄 Footer.tsx
+└── widgets                       # 페이지 레이아웃을 위한 UI 블록
      ├── header
      |    ├── 📄 header.html
      |    └── 📄 Header.tsx
-     └── navigation
-          ├── 📄 navigation.html
-          └── 📄 Navigation.tsx
+     ├── navigation
+     |    ├── 📄 navigation.html
+     |    └── 📄 Navigation.tsx
+     └── footer
+          ├── 📄 footer.html
+          └── 📄 Footer.tsx
 ```
 
 <br />
