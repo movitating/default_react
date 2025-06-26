@@ -4,11 +4,12 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [
-    react({
-      babel: {
-        plugins: [['babel-plugin-react-compiler', {}]], // 자동으로 메모이제이션 기능을 제공
-      },
-    }),
+    react(),
+    // react({
+    //   babel: {
+    //     plugins: [['babel-plugin-react-compiler', {}]], // 자동으로 메모이제이션 기능을 제공
+    //   },
+    // }),
     tailwindcss(),
   ],
   resolve: {
